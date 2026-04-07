@@ -1,0 +1,6 @@
+names:
+- glove
+nc: 1
+test: C:\Users\ziada\PycharmProjects\CVproject\gloves-1\test\images
+train: C:\Users\ziada\PycharmProjects\CVproject\gloves-1\train\images
+val: C:\Users\ziada\PycharmProjects\CVproject\gloves-1\valid\images

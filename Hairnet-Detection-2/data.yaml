@@ -1,0 +1,7 @@
+names:
+- No-Hairnet
+- hairnet
+nc: 2
+test: C:\Users\ziada\PycharmProjects\CVproject\Hairnet-Detection-2\test\images
+train: C:\Users\ziada\PycharmProjects\CVproject\Hairnet-Detection-2\train\images
+val: C:\Users\ziada\PycharmProjects\CVproject\Hairnet-Detection-2\valid\images

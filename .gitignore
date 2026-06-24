@@ -3,3 +3,26 @@
 __pycache__/
 *.pyc
 .env
+
+# Datasets — 30k images, too large for GitHub
+Final-work-1/
+GP-1/
+Hairnet-Detection-2/
+gloves-1/
+merged/
+merged4sets/
+
+# Base YOLO pretrained weights (re-download from ultralytics)
+yolo26n.pt
+yolov8n.pt
+
+# Old separate models and validation runs — keep only merged_v4
+runs/detect/gloves_model/
+runs/detect/hairnet_model/
+runs/detect/val*/
+runs/detect/runs/ppe/merged_v1/
+runs/detect/runs/ppe/merged_v2/
+
+# Temp inference files
+temp_*.jpg
+detection_result*.png

@@ -1,10 +1,17 @@
-.venv/
+# PyCharm / Python
 .idea/
+.venv/
 __pycache__/
 *.pyc
 .env
 
-# Datasets — 30k images, too large for GitHub
+# Roboflow datasets (large, re-downloadable from the notebook)
+chef2/
+final-work-nyuq2-qokdc/
+gloves-4nvvi-wcdnk/
+gp-fqlbs-jfcck/
+hairnet-detection-vktcj-0jkon/
+merged5sets/
 Final-work-1/
 GP-1/
 Hairnet-Detection-2/
@@ -12,17 +19,13 @@ gloves-1/
 merged/
 merged4sets/
 
-# Base YOLO pretrained weights (re-download from ultralytics)
+# Base pretrained weights (auto re-download from ultralytics)
+yolo11m.pt
 yolo26n.pt
 yolov8n.pt
 
-# Old separate models and validation runs — keep only merged_v4
-runs/detect/gloves_model/
-runs/detect/hairnet_model/
-runs/detect/val*/
-runs/detect/runs/ppe/merged_v1/
-runs/detect/runs/ppe/merged_v2/
-
-# Temp inference files
+# All training runs...
+runs/
+# temp inference
 temp_*.jpg
 detection_result*.png
